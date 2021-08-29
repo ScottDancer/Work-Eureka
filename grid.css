@@ -1,4 +1,4 @@
-.content-wrap {
+.contentWrap {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 1fr;
 }
@@ -8,7 +8,7 @@ h2 {
 
 }
 
-.content-wrap p {
+.contentWrap p {
   grid-column: 2 / 4;
 
 }
