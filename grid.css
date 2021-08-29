@@ -1,0 +1,14 @@
+.content-wrap {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+}
+
+h2 {
+  grid-column: 1 /5;
+
+}
+
+.content-wrap p {
+  grid-column: 2 / 4;
+
+}
