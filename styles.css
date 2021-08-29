@@ -1,0 +1,55 @@
+/* COLOR PALETTE
+#2D323B - Dark Grey 
+#877D74 - Light Brown, (bronze-like)
+#3e5887 - Medium Grey/Blue 
+hsl(219, 37.2%, 94.1%); - Light Blue Bumped up to Almost White */
+/* #F7A865 - link hover orange */
+
+/* UPDATED COLOR PALETTE
+#131314 - deep dark grey (almost black)
+#F8F9FA - very light grey (almost white)
+#BBC2CC - silver grey
+#CCC5BB - complmmentary to the sliver grey
+
+/* Global Styles
+---------------------------------------------------- */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  /* background-color: #F8F9FA; */
+}
+
+.work-experience {
+  color:  #F8F9FA;
+  background-color: #131314;
+}
+
+.key-contributions {
+  font-weight: 500;
+}
+
+.job-item {
+  font-weight: 300;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 20px;
+  border-bottom: 1px solid #877D74;
+}
+
+.job-details {
+
+}
+
+.work-experience ul {
+  list-style-type: square;
+}
